@@ -1,0 +1,5 @@
+Error type : NameError (uninitialized constant)
+File Path: from /Users/rubykobayashi/.rvm/rubies/ruby-2.5.1/bin/irb:11:in `<main>'
+Line number: 11
+Ruby docs: Raised when a given name is invalid or undefined
+Suggestion: Define it
