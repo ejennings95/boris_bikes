@@ -1,0 +1,27 @@
+User Stories: 
+
+story 1:
+nouns: person, bike, docking station
+verbs: use, like, release
+
+story 2:
+nouns: person, bike,
+verbs: use, like, working
+
+Object / Message table:
+
+| Object           | Message |
+|------------------|---------|
+| Person           | Use     |
+| Bike             | Works   |
+| Docking station  | Release |
+
+​Step Diagram:
+
+1. Person checks Bike
+2. if Bike working Docking station releases Bike
+3. Person uses Bike
+
+1. Person checks Bike
+2. if Bike not working Docking station doesn't release Bike
+3. Person checks another Bike
