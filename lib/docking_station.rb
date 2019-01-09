@@ -15,14 +15,16 @@ class DockingStation
     if @bike.nil?
       raise NoBikePresentError, "There is no bike to hire"
     end
+
     @bike
   end
 
   def dock(bike)
+    if @bike.class == Bike
+      raise 'DockFullError'
+    end
     @bike = bike
   end
 
 end
-#
-# dock = DockingStation.new
-# p dock.release_bike
+
